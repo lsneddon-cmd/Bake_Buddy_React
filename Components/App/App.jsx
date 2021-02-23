@@ -1,4 +1,5 @@
 import React from "react";
+import GetStarted from '../GetStarted/GetStarted';
 
 const App = () => {
   return (
@@ -7,10 +8,12 @@ const App = () => {
         <h1>Bake</h1>
         <h1>Buddy</h1>
       </div>
-      <div class="main-window"></div>
+      <div class="main-window">
+        <GetStarted />
+      </div>
       <div class="footer">
         <p>
-          Bake Buddy 2020 by <a href="http://lsneddon.com">Lewis Sneddon</a>
+          Bake Buddy 2020 by <a href="http://lewiscodes.io">Lewis Sneddon</a>
         </p>
       </div>
     </div>
