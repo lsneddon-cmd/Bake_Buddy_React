@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "parcel public/index.html"
+    "dev": "parcel public/index.html",
+    "format": "prettier \"Components/**/*.{js,jsx,html}\" --write"
   },
   "author": "",
   "license": "ISC",
@@ -14,6 +15,7 @@
     "react-dom": "^17.0.1"
   },
   "devDependencies": {
-    "parcel-bundler": "^1.12.4"
+    "parcel-bundler": "^1.12.4",
+    "prettier": "^2.2.1"
   }
 }
