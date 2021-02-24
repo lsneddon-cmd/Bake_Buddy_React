@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "parcel build index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "parcel public/index.html",
-    "format": "prettier \"Components/**/*.{js,jsx,html}\" --write",
-    "build": "react-scripts build"
+    "format": "prettier \"Components/**/*.{js,jsx,html}\" --write"
   },
   "author": "",
   "license": "ISC",
